@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 
+		Case Study Template by Emma Janousek
+		SGA website Template
+		1/26/2026
+	-->
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>SGA Website | Projects</title>
+	<link rel="stylesheet" href="css/sgacss.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<script src="javascript/sgascript.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<a href="index.html"><img class="logo" src="images/logo.png" alt="sga logo"></a>
+		<h1>Student Government Association</h1>
+		<h2>At York County Community College</h2>
+	</header>
+	
+	<!-- Mobile Nav-->
+	<nav class="mobile-nav">
+		<div id="nav-links">
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="projects.html">Projects</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	</nav>
+	
+	<nav class="tab-desk">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<div>
+			<div id="legacy">
+				<h3>The SGA Legacy Project</h3>
+					<p>The SGA is working toward building and advocating for YCCC to have a student center. This would include a place for students to get together to play games, hang out and take a break in between classes. The whole build would be between 18 to 50 million and while the SGA will be unable to fundraise that amount of money by ourselves, we hope to bring awareness and gain support for building a student center. We are currently looking into fundraising and petitioning for the student center.</p>
+
+				<h3>Support Us</h3>
+					<p>Do you have any ideas for us? Would you like to sign our petition to build the student center? Contact up with the subject "Legacy Project Ideas" and we will add it to our list of ideas or you can click the signature button below to also show your support!</p>
+				
+				<h3 id="signatures-count">Show your support!</h3>
+					<p id="count">0</p>
+				<div class="center-button dropdown">
+					<button id="button">Add your name!</button>
+					<!-- Hidden dropdown menu -->
+					<div id="dropdown-content" class="dropdown-content">
+						<input type="text" placeholder="Type here..." id="myInput">
+						<button id="submitName">Submit</button>
+					</div>
+				</div>
+				
+				<h3>Other Projects</h3>
+					<p>The SGA has also held different events in the Pratt and Whittney lounge as well as volunteering for the Wells Haunted Hayride event and hosting a game of flag football.</p>
+					
+					
+				<div id="grid">
+					<figure class="halloween"> <!-- image 1 - Halloween party -->
+						<img src="images/halloween.jpg" alt="halloween party">
+						<figcaption>The SGA hosted the Halloween party in the Pratt and Whittney lounge. We had pumpkin painting, chocolate fondue and a costume contest!</figcaption>
+					</figure>
+					
+					<figure> <!-- image 2 - Haunted hayride -->
+						<img src="images/hayride.jpg" alt="haunted hayride">
+						<figcaption>The SGA was given a volunteer opportunity to be one of the "Creatures of the Woods" at the Wells Haunted Hayride. We chose to be zombie baseball players to show our pride for YCCC and became a thriller dance mob which ended up being a really big hit.</figcaption>
+					</figure>
+					
+					<figure class="football"> <!-- image 3 - Flag football game -->
+						<img src="images/flag-football.jpg" alt="flag football game">
+						<figcaption>The SGA hosted a flag football game and cookout right before Thanksgiving break. We also had a donut on a string eating contest which was entertaining to watch!</figcaption>
+					</figure>
+				</div>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="copyright">
+			<p>Contact us <a href="contact.html">here</a></p>
+			<p>SGA at YCCC</p>
+		</div>
+		<div id="browser-info">
+			<h4>System Information</h4>
+			<p id="user-browser"></p>
+			<p id="user-screen"></p>
+		</div>
+	</footer>
+	
+</body>
+</html>

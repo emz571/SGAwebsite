@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 
+		Case Study Template by Emma Janousek
+		SGA website Template
+		1/26/2026
+	-->
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>SGA Website | Contact</title>
+	<link rel="stylesheet" href="css/sgacss.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<script src="javascript/sgascript.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<a href="index.html"><img class="logo" src="images/logo.png" alt="sga logo"></a>
+		<h1>Student Government Association</h1>
+		<h2>At York County Community College</h2>
+	</header>
+	
+	<!-- Mobile Nav-->
+	<nav class="mobile-nav">
+		<div id="nav-links">
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="projects.html">Projects</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	</nav>
+	
+	<nav class="tab-desk">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<div>
+			<h3>Talk with Us!</h3>
+				<p>In the SGA we welcome anyone who wants to join us, chat with us, or give us insight on school life. We try to take the information students and staff give us and work toward the betterment of student life. We would love to hear your comments, concerns and ideas you may have for us. As of right now, the SGA meets at 12:30pm on Tuesdays in the Hussey conference room on the second floor of the Pratt and Whittney building. If you are interested in joining feel free to stop by or email our advisor Allyson Grochmal at <a href="mailto:agrochmal@mainecc.edu">agrochmal@mainecc.edu</a> for meeting times, events and club member information.</p>
+		</div>
+		
+		<section id="contact-form">
+			<h3>Interested in SGA? Want to Give Us Feedback?</h3>        
+				<div>
+				<form id="sga-form" onsubmit="return validateContactForm;">
+					<label for="myInput">Full Name:</label>
+					
+					<input type="text" id="myInput" placeholder="Enter your name..." required>
+					<label for="userEmail">Email Address:</label>
+					<input type="email" id="userEmail" name="userEmail" placeholder="Enter your email..." required><br>
+					<fieldset>
+						<legend>What are you contacting us about? (choose all that apply)</legend>
+						<label><input type="checkbox" name="interest" value="member"> become a club member</label><br>
+						<label><input type="checkbox" name="interest" value="fundraisers"> fundraisers</label><br>
+						<label><input type="checkbox" name="interest" value="volunteering"> volunteer opportunities</label><br>
+						<label><input type="checkbox" name="interest" value="suggestion"> submit a question or suggestion</label><br>
+						<label><input type="checkbox" name="interest" value="leadership"> apply for a leadership position</label><br>
+						<label><input type="checkbox" name="interest" value="meeting"> have a club meeting/activity with the SGA</label><br>
+						<label><input type="checkbox" name="interest" value="event"> discuss upcoming/creating an event</label><br>
+					</fieldset>
+					<label for="userMessage">Comments:</label>
+						<textarea id="userMessage" name="userMessage" rows="3" col="50" placeholder="How can we help?"></textarea><br>
+
+					<button type="submit" id="submitForm">Submit</button>
+				</form>
+				
+				</div>
+	</main>
+	
+	<footer>
+		<div class="copyright">
+			<p>Contact us <a href="contact.html">here</a></p>
+			<p>SGA at YCCC</p>
+		</div>
+		<div id="browser-info">
+			<h4>System Information</h4>
+			<p id="user-browser"></p>
+			<p id="user-screen"></p>
+		</div>
+	</footer>
+	
+</body>
+</html>

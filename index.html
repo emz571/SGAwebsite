@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 
+		Case Study Template by Emma Janousek
+		SGA website Template
+		1/26/2026
+	-->
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>SGA Website | Home</title>
+	<link rel="stylesheet" href="css/sgacss.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<script src="javascript/sgascript.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<a href="index.html"><img class="logo mobile-logo" src="images/logo.png" alt="sga logo"></a>
+		<h1>Student Government Association</h1>
+		<h2>At York County Community College</h2>
+	</header>
+	
+	<!-- Mobile Nav-->
+	<nav class="mobile-nav">
+		<div id="nav-links">
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="projects.html">Projects</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		
+		<a class="nav-icon" onclick="menu()">
+			<div id="icon"><img src="images/logo.png"></div>
+		</a>
+	</nav>
+	
+	<nav class="tab-desk">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<div>
+			<h3>Welcome to the Student Government Association's main page!</h3>
+				<p>In the SGA we look to improve the school experience for not only just current students but visitors, faculty and incoming students.</p>
+				<p>We have hosted events such as flag football, and the other holiday parties held in the Pratt and Whitney building. We also volunteered at the Haunted Hayride put on by the Wells Recreation Department.</p>
+			
+			<div class="container">
+				<ul class="whats-up">
+					<a href="projects.html"><li class="first">See what's up with us!</li></a>
+					<a href="contact.html"><li class="second">Talk to us!</li></a>
+				</ul>
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="copyright">
+			<p>Contact us <a href="contact.html">here</a></p>
+			<p>SGA at YCCC</p>
+		</div>
+		<div id="browser-info">
+			<h4>System Information</h4>
+			<p id="user-browser"></p>
+			<p id="user-screen"></p>
+		</div>
+	</footer>
+	
+</body>
+</html>
