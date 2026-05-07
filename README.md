@@ -5,4 +5,8 @@
 <img width="302" height="403" alt="zombies" src="https://github.com/user-attachments/assets/ef6d94c0-0c9d-4528-b7f3-978a5d1555bc" />
 <img width="403" height="302" alt="zombie-hawk" src="https://github.com/user-attachments/assets/bef91483-7e29-40e1-ba47-9bb9e6f49a34" />
 <img width="288" height="384" alt="hayride" src="https://github.com/user-attachments/assets/cb77a268-ae92-49cb-a2f7-e7ea4906c17a" />
-
+<img width="32" height="32" alt="favicon-32x32" src="https://github.com/user-attachments/assets/f0ef728c-094e-4274-987a-6aaca851108d" />
+<img width="16" height="16" alt="favicon-16x16" src="https://github.com/user-attachments/assets/5d7fbf48-9177-4a62-a586-78ce45746290" />
+<img width="180" height="180" alt="apple-touch-icon" src="https://github.com/user-attachments/assets/7cdba7b1-fcca-4f0a-aadf-9e4648d489ea" />
+<img width="512" height="512" alt="android-chrome-512x512" src="https://github.com/user-attachments/assets/cf350556-0739-4dd2-a693-2a9d01294fe7" />
+<img width="192" height="192" alt="android-chrome-192x192" src="https://github.com/user-attachments/assets/787119b5-ee40-45b5-9170-e3702993835a" />
